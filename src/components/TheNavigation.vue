@@ -1,5 +1,5 @@
 <template>
-  <div class="py-2">
+  <nav class="py-2" aria-label="Main Navigation">
     <NavigationList />
-  </div>
+  </nav>
 </template>
