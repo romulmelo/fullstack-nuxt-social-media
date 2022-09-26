@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
+    "nuxt-icon"
   ],
   // config for @nuxtjs/google-fonts
   googleFonts: googleFontsModule.googleFonts,
