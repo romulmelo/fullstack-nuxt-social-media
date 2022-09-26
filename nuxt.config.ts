@@ -10,6 +10,12 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "nuxt-icon"
   ],
+  router: {
+    options: {
+      linkActiveClass: "active",
+      linkExactActiveClass: "exact"
+    }
+  },
   // config for @nuxtjs/google-fonts
   googleFonts: googleFontsModule.googleFonts,
   // config for @nuxtjs/color-mode
